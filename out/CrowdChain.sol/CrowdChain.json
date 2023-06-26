@@ -1,0 +1,151 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c802cea46ee9a41e86d33740e186093e3eeb640ef39c08c8e26741cd5b713af664736f6c63430008110033",
+    "sourceMap": "64:49:0:-:0;;;90:21;;;;;;;;;;64:49;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220c802cea46ee9a41e86d33740e186093e3eeb640ef39c08c8e26741cd5b713af664736f6c63430008110033",
+    "sourceMap": "64:49:0:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/CrowdChain.sol\":\"CrowdChain\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/CrowdChain.sol\":{\"keccak256\":\"0xadf07b8a2e6edb4530967de0dc894c6acc399fdd242e4842a0c04f004d1428d4\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://c19d910d4b8e7af030f68f232d5ddc3f1ae86196a992328d6558effc5a379a1b\",\"dweb:/ipfs/QmSKLo6XBKKBqiGZFak7dLWsHgVcpbErSPQdqsXdckijZm\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/CrowdChain.sol": "CrowdChain"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/CrowdChain.sol": {
+        "keccak256": "0xadf07b8a2e6edb4530967de0dc894c6acc399fdd242e4842a0c04f004d1428d4",
+        "urls": [
+          "bzz-raw://c19d910d4b8e7af030f68f232d5ddc3f1ae86196a992328d6558effc5a379a1b",
+          "dweb:/ipfs/QmSKLo6XBKKBqiGZFak7dLWsHgVcpbErSPQdqsXdckijZm"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/CrowdChain.sol",
+    "id": 7,
+    "exportedSymbols": {
+      "CrowdChain": [
+        6
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:75:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:0",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 6,
+        "nodeType": "ContractDefinition",
+        "src": "64:49:0",
+        "nodes": [
+          {
+            "id": 5,
+            "nodeType": "FunctionDefinition",
+            "src": "90:21:0",
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "103:8:0",
+              "statements": []
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "101:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:0:0"
+            },
+            "scope": 6,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CrowdChain",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "CrowdChain",
+        "nameLocation": "73:10:0",
+        "scope": 7,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 0
+}
